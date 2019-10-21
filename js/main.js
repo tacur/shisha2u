@@ -407,7 +407,6 @@ const lines = document.querySelectorAll('.line');
 
 hamburger.addEventListener("click",  () => {
 	navLinks.classList.toggle("open");
-	lines.classList.toggle("open");
 });
 
 navLinks.addEventListener("click",  () => {
