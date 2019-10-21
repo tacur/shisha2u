@@ -58,7 +58,7 @@ h4 {
 
 :root {
   --grundfarbe: rgba(210, 149, 0);  
-  --secondary: #231F20;
+  --secondary: rgb(35, 31, 32);
   --third: white;
   --grau: #231F20;
   --schrift: "Unica One", Arial, Helvetica, sans-serif;
@@ -2694,7 +2694,7 @@ hr.style-two {
     cursor: pointer;
     color: var(--grundfarbe);
     right: 3%;
-    top: 5%;
+    top: 32.5px;
     transform: translate(-5%, -50%);
     z-index: 7;
   }
