@@ -2403,8 +2403,21 @@ Parallax
   min-width: 160px;
   width: auto;
   height: 65px;
-  background: var(--secondary);
-  border-bottom: 1px solid var(--grundfarbe);;
+  /* background: var(--secondary);*/
+  /* border-bottom: 1px solid var(--grundfarbe);*/
+  background:
+    linear-gradient(
+      to left, 
+      var(--secondary) 0%,
+      var(--grundfarbe) 33%,
+      var(--grundfarbe) 66%,
+      var(--secondary) 100%
+    )
+    left 
+    bottom
+    var(--secondary) 
+    no-repeat; 
+  background-size:100% 1px ;
   margin: auto;
   margin-top: auto;
   border-radius: 0%;
