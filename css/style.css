@@ -364,7 +364,7 @@ direction: ltr;
 }
 .btn_telefon:hover i{
   transform: scale(1.3);
-  color: #f1f1f1;
+  color: var(--grundfarbe);
 }
 .btn_telefon::before{
   content: "";
@@ -417,7 +417,7 @@ direction: ltr;
 }
 .btn_whatsapp:hover i{
   transform: scale(1.3);
-  color: #f1f1f1;
+  color: var(--grundfarbe);
 }
 .btn_whatsapp::before{
   content: "";
@@ -2709,6 +2709,7 @@ hr.style-two {
   .nav-links{
     position: fixed;
     background: var(--secondary);
+    border: 1px solid var(--grundfarbe);
     text-transform: uppercase;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     height: 100%;
