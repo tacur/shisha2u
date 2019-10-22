@@ -57,8 +57,9 @@ h4 {
 */
 
 :root {
-  --grundfarbe: rgba(210, 149, 0);  
-  --secondary: rgb(35, 31, 32);
+  --grundfarbe: rgba(142, 121, 62); 
+  --secondary: white;  
+  /* --secondary: rgb(35, 31, 32); */
   --third: white;
   --grau: #231F20;
   --schrift: "Unica One", Arial, Helvetica, sans-serif;
@@ -103,9 +104,11 @@ Patterns - reusable parts of our design
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  /*
   -webkit-animation: zoomin 10s ease-in infinite;
   animation: zoomin 10s ease-in infinite;
   transition: all .5s ease-in-out;
+  */
   overflow: hidden;
 }
 @-webkit-keyframes zoomin {
